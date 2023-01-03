@@ -34,7 +34,8 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  color: var(--coral);
+  color: ivory;
+  background-color: var(--coral);
   border: 5px solid var(--coral);
   height: 50px;
   font-size: 1.5rem;
