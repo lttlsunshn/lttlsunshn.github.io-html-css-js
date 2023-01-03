@@ -6,10 +6,19 @@
   font-style: normal;
 }
 
+/* RGB : 227 86 60 : #e3563c */
+/* RGB : (230,230,229) #e6e6e5 회색*/
+/* RGB : (56, 56, 58) #38383a */
+
 :root {
   --mint: #9ddfd3;
   --coral: #fd9795;
   --beige: #e1cfbd;
+  --colorA: #b8d4d7;
+  --colorB: #fceed1;
+  --colorC: #e3563c;
+  --colorD: #e6e6e5;
+  --colorE: #38383a;
 }
 
 html,
@@ -34,9 +43,9 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  color: ivory;
-  background-color: var(--coral);
-  border: 5px solid var(--coral);
+  color: var(--colorB);
+  background-color: var(--colorA);
+  /* border: 5px solid var(--coral); */
   height: 50px;
   font-size: 1.5rem;
 }
@@ -53,7 +62,9 @@ main {
   flex-flow: column nowrap;
   width: 120px;
   flex-shrink: 0;
-  border: 5px solid black;
+  /* border: 5px solid black; */
+  color: var(--colorE);
+  background-color: var(--colorB);
   padding: 10px;
 }
 
