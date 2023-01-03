@@ -1,6 +1,9 @@
 @font-face {
-  font-family: "Cafe24Ohsquareair";
+  /* font-family: "Cafe24Ohsquareair";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff")
+    format("woff"); */
+  font-family: "TmonMonsori";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
@@ -11,9 +14,9 @@
 /* RGB : (56, 56, 58) #38383a */
 
 :root {
-  --mint: #9ddfd3;
+  /* --mint: #9ddfd3;
   --coral: #fd9795;
-  --beige: #e1cfbd;
+  --beige: #e1cfbd; */
   --colorA: #b8d4d7;
   --colorB: #fceed1;
   --colorC: #e3563c;
@@ -26,7 +29,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Cafe24Ohsquareair";
+  font-family: "TmonMonsori";
   min-width: 320px;
 }
 
