@@ -80,7 +80,7 @@ main {
   width: 200px;
   min-height: 150px;
   padding: 10px;
-  background-color: var(--beige);
+  background-color: var(--colorB);
   margin: 10px;
   border-radius: 10px;
 }
