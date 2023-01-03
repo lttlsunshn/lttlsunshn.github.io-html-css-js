@@ -36,7 +36,7 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  color: var(--colorD);
+  color: var(--colorE);
   background-color: var(--colorA);
   height: 50px;
   font-size: 1.5rem;
@@ -99,11 +99,11 @@ main {
 
 @media (max-width: 1000px) {
   .card {
-    background: var(--colorC);
+    background: var(--colorA);
   }
 }
 @media (max-width: 700px) {
   .card {
-    background: var(--colorA);
+    background: var(--colorC);
   }
 }
