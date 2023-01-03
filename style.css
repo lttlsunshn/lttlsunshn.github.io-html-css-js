@@ -80,7 +80,7 @@ main {
   display: flex;
   flex-flow: row wrap;
   flex: 1;
-  border: 5px solid lightblue;
+  border: 2px solid var(--colorA);
   margin-left: 10px;
   align-content: flex-start;
   overflow-y: scroll;
