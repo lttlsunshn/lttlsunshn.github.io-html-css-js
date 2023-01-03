@@ -1,22 +1,12 @@
 @font-face {
-  /* font-family: "Cafe24Ohsquareair";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff")
-    format("woff"); */
-  font-family: "TmonMonsori";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff")
-    format("woff");
+  font-family: "Happiness-Sans-Title";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
-/* RGB : 227 86 60 : #e3563c */
-/* RGB : (230,230,229) #e6e6e5 회색*/
-/* RGB : (56, 56, 58) #38383a */
-
 :root {
-  /* --mint: #9ddfd3;
-  --coral: #fd9795;
-  --beige: #e1cfbd; */
   --colorA: #b8d4d7;
   --colorB: #fceed1;
   --colorC: #e3563c;
@@ -29,7 +19,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "TmonMonsori";
+  font-family: "Happiness-Sans-Title";
   min-width: 320px;
 }
 
@@ -46,9 +36,8 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  color: var(--colorB);
+  color: var(--colorD);
   background-color: var(--colorA);
-  /* border: 5px solid var(--coral); */
   height: 50px;
   font-size: 1.5rem;
 }
@@ -65,7 +54,6 @@ main {
   flex-flow: column nowrap;
   width: 120px;
   flex-shrink: 0;
-  /* border: 5px solid black; */
   color: var(--colorE);
   background-color: var(--colorB);
   padding: 10px;
@@ -111,11 +99,11 @@ main {
 
 @media (max-width: 1000px) {
   .card {
-    background: var(--coral);
+    background: var(--colorC);
   }
 }
 @media (max-width: 700px) {
   .card {
-    background: var(--mint);
+    background: var(--colorA);
   }
 }
